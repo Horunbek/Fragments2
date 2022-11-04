@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@drawable/shape"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginVertical="10dp"
+    android:id="@+id/cons"
+    android:layout_height="wrap_content">
+
+<TextView
+    android:textStyle="bold"
+    android:id="@+id/tv1"
+    android:textSize="30dp"
+    android:textColor="#42217C"
+    android:text="Marhamat tarifi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+android:textSize="20dp"
+        android:textColor="#42217C"
+        android:text="Tolov:10,000 so'm"
+android:layout_marginTop="30dp"
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
